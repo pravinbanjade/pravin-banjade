@@ -8,4 +8,3 @@ DevOps-focused portfolio showcasing CI/CD, Infrastructure as Code, containerizat
 - Tailwind CSS
 - shadcn/ui
 
-## Local Setup
