@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -20,22 +20,22 @@
     --popover: 0 0% 100%;
     --popover-foreground: 240 10% 3.9%;
     
-    /* Brand Colors */
-    --primary: 230 100% 65%;
+    /* Brand Colors - Material Blue (#1E88E5 / #42A5F5) */
+    --primary: 207 90% 50%;
     --primary-foreground: 0 0% 100%;
-    --primary-glow: 230 100% 75%;
+    --primary-glow: 207 90% 61%;
     
     /* Secondary Palette */
-    --secondary: 240 5% 96%;
-    --secondary-foreground: 240 6% 10%;
+    --secondary: 207 20% 96%;
+    --secondary-foreground: 207 25% 10%;
     
     /* Neutral System */
-    --muted: 240 5% 96%;
-    --muted-foreground: 240 3.8% 46.1%;
+    --muted: 207 20% 96%;
+    --muted-foreground: 207 10% 46%;
     
     /* Accent Colors */
-    --accent: 240 5% 96%;
-    --accent-foreground: 240 6% 10%;
+    --accent: 207 90% 50%;
+    --accent-foreground: 0 0% 100%;
     
     /* Status Colors */
     --destructive: 0 84.2% 60.2%;
@@ -44,20 +44,20 @@
     --success-foreground: 0 0% 98%;
     
     /* Border System */
-    --border: 240 6% 90%;
-    --input: 240 6% 90%;
-    --ring: 230 100% 65%;
+    --border: 207 15% 88%;
+    --input: 207 15% 88%;
+    --ring: 207 90% 50%;
     
     /* Gradients */
-    --gradient-primary: linear-gradient(135deg, hsl(230 100% 65%), hsl(260 100% 70%));
-    --gradient-secondary: linear-gradient(135deg, hsl(240 5% 96%), hsl(240 6% 98%));
-    --gradient-hero: linear-gradient(135deg, hsl(230 100% 65% / 0.1), hsl(260 100% 70% / 0.05));
+    --gradient-primary: linear-gradient(135deg, hsl(207 90% 50%), hsl(207 90% 61%));
+    --gradient-secondary: linear-gradient(135deg, hsl(207 20% 96%), hsl(207 22% 98%));
+    --gradient-hero: linear-gradient(135deg, hsl(207 90% 50% / 0.1), hsl(207 90% 61% / 0.05));
     
     /* Shadows */
-    --shadow-sm: 0 1px 2px 0 hsl(240 6% 10% / 0.05);
-    --shadow-md: 0 4px 6px -1px hsl(240 6% 10% / 0.1), 0 2px 4px -2px hsl(240 6% 10% / 0.1);
-    --shadow-lg: 0 10px 15px -3px hsl(240 6% 10% / 0.1), 0 4px 6px -4px hsl(240 6% 10% / 0.1);
-    --shadow-glow: 0 0 40px hsl(230 100% 65% / 0.3);
+    --shadow-sm: 0 1px 2px 0 hsl(207 15% 10% / 0.05);
+    --shadow-md: 0 4px 6px -1px hsl(207 15% 10% / 0.1), 0 2px 4px -2px hsl(207 15% 10% / 0.1);
+    --shadow-lg: 0 10px 15px -3px hsl(207 15% 10% / 0.1), 0 4px 6px -4px hsl(207 15% 10% / 0.1);
+    --shadow-glow: 0 0 40px hsl(207 90% 50% / 0.35);
     
     /* Animations */
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
@@ -95,21 +95,21 @@
     --popover: 240 10% 6%;
     --popover-foreground: 0 0% 98%;
     
-    /* Brand Colors */
-    --primary: 230 100% 65%;
+    /* Brand Colors - Material Blue (Dark Mode) */
+    --primary: 207 90% 61%;
     --primary-foreground: 0 0% 98%;
-    --primary-glow: 230 100% 75%;
+    --primary-glow: 207 90% 70%;
     
     /* Secondary Palette */
-    --secondary: 240 4% 16%;
+    --secondary: 207 12% 14%;
     --secondary-foreground: 0 0% 98%;
     
     /* Neutral System */
-    --muted: 240 4% 16%;
-    --muted-foreground: 240 5% 64.9%;
+    --muted: 207 12% 14%;
+    --muted-foreground: 207 8% 65%;
     
     /* Accent Colors */
-    --accent: 240 4% 16%;
+    --accent: 207 90% 61%;
     --accent-foreground: 0 0% 98%;
     
     /* Status Colors */
@@ -119,20 +119,20 @@
     --success-foreground: 0 0% 98%;
     
     /* Border System */
-    --border: 240 4% 16%;
-    --input: 240 4% 16%;
-    --ring: 230 100% 65%;
+    --border: 207 12% 18%;
+    --input: 207 12% 18%;
+    --ring: 207 90% 61%;
     
     /* Dark Mode Gradients */
-    --gradient-primary: linear-gradient(135deg, hsl(230 100% 65%), hsl(260 100% 70%));
-    --gradient-secondary: linear-gradient(135deg, hsl(240 4% 16%), hsl(240 6% 18%));
-    --gradient-hero: linear-gradient(135deg, hsl(230 100% 65% / 0.1), hsl(260 100% 70% / 0.05));
+    --gradient-primary: linear-gradient(135deg, hsl(207 90% 61%), hsl(207 90% 70%));
+    --gradient-secondary: linear-gradient(135deg, hsl(207 12% 14%), hsl(207 14% 16%));
+    --gradient-hero: linear-gradient(135deg, hsl(207 90% 61% / 0.15), hsl(207 90% 70% / 0.08));
     
     /* Dark Shadows */
     --shadow-sm: 0 1px 2px 0 hsl(0 0% 0% / 0.1);
     --shadow-md: 0 4px 6px -1px hsl(0 0% 0% / 0.2), 0 2px 4px -2px hsl(0 0% 0% / 0.2);
     --shadow-lg: 0 10px 15px -3px hsl(0 0% 0% / 0.3), 0 4px 6px -4px hsl(0 0% 0% / 0.3);
-    --shadow-glow: 0 0 40px hsl(230 100% 65% / 0.4);
+    --shadow-glow: 0 0 40px hsl(207 90% 61% / 0.4);
     --sidebar-background: 240 5.9% 10%;
     --sidebar-foreground: 240 4.8% 95.9%;
     --sidebar-primary: 224.3 76.3% 48%;
@@ -155,7 +155,7 @@
   }
   
   h1, h2, h3, h4, h5, h6 {
-    @apply font-display;
+    @apply font-sans font-bold;
   }
 }
 
@@ -198,17 +198,44 @@
     @apply bg-gradient-to-r from-primary to-primary-glow bg-clip-text text-transparent;
   }
   
-  /* Animations */
-  .animate-fade-in {
-    animation: fadeIn 0.6s ease-out forwards;
+  /* Base state for scroll animations - hidden by default */
+  .scroll-animate {
+    opacity: 0;
+    transform: translateY(20px);
   }
   
-  .animate-slide-up {
-    animation: slideUp 0.6s ease-out forwards;
+  /* Trigger animations when visible */
+  .scroll-animate.is-visible.animate-fade-in {
+    animation: fadeIn 0.8s ease-out forwards;
+  }
+  
+  .scroll-animate.is-visible.animate-slide-up {
+    animation: slideUp 0.8s ease-out forwards;
+  }
+  
+  .scroll-animate.is-visible.animate-slide-in-left {
+    animation: slideInLeft 0.8s ease-out forwards;
+  }
+  
+  .scroll-animate.is-visible.animate-slide-in-right {
+    animation: slideInRight 0.8s ease-out forwards;
+  }
+  
+  .scroll-animate.is-visible.animate-scale-in {
+    animation: scaleIn 0.6s ease-out forwards;
   }
   
   .animate-float {
     animation: float 6s ease-in-out infinite;
+  }
+  
+  /* Smooth transitions */
+  .transition-smooth {
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .transition-spring {
+    transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   }
 }
 
@@ -234,6 +261,39 @@
   }
 }
 
+@keyframes slideInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    opacity: 0;
+    transform: translateX(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes scaleIn {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
 @keyframes float {
   0%, 100% {
     transform: translateY(0px);
@@ -241,4 +301,84 @@
   50% {
     transform: translateY(-10px);
   }
+}
+
+/* Smooth scroll behavior */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Enhanced hover effects */
+.card-hover {
+  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), 
+              box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.card-hover:hover {
+  transform: translateY(-4px);
+}
+
+/* Link hover animation */
+a {
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+
+/* Button hover animations */
+button {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+button:active {
+  transform: scale(0.98);
+}
+
+/* Smooth image transitions */
+img {
+  transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Badge animations */
+.badge-hover {
+  transition: all 0.2s ease;
+}
+
+.badge-hover:hover {
+  transform: translateY(-2px);
+}
+
+/* Section title animations */
+@keyframes slideWidth {
+  from {
+    width: 0;
+  }
+  to {
+    width: 6rem;
+  }
+}
+
+.text-center .w-24 {
+  animation: slideWidth 1s ease-out forwards;
+  animation-delay: 0.3s;
+  width: 0;
+}
+
+/* Subtle pulse for primary elements */
+@keyframes pulse-subtle {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.8;
+  }
+}
+
+.animate-pulse-subtle {
+  animation: pulse-subtle 3s ease-in-out infinite;
+}
+
+/* Glow effect on focus */
+*:focus-visible {
+  outline: 2px solid hsl(var(--primary));
+  outline-offset: 2px;
+  transition: outline 0.2s ease;
 }

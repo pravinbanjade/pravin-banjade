@@ -29,7 +29,7 @@ const Header = () => {
     { name: "Home", href: "#home" },
     { name: "About", href: "#about" },
     { name: "Skills", href: "#skills" },
-    { name: "Labs", href: "#projects" }, // keep id as #projects
+    { name: "Experience", href: "#projects" }, // keep id as #projects
     { name: "Education", href: "#education" },
     { name: "Contact", href: "#contact" },
   ];
@@ -49,7 +49,7 @@ const Header = () => {
             className="font-display text-2xl font-bold text-gradient cursor-pointer"
             onClick={() => scrollToSection("#home")}
           >
-            AB
+            PB
           </div>
 
           {/* Desktop Navigation */}

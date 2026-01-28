@@ -12,7 +12,7 @@ const Footer = () => {
     { name: "Home", href: "#home" },
     { name: "About", href: "#about" },
     { name: "Skills", href: "#skills" },
-    { name: "Labs", href: "#projects" }, // section id is still "projects"
+    { name: "Experience", href: "#projects" }, // section id is still "projects"
     { name: "Education", href: "#education" },
     { name: "Contact", href: "#contact" },
   ];
@@ -20,17 +20,17 @@ const Footer = () => {
   const socialLinks = [
     {
       icon: Github,
-      href: "https://github.com/abhishekbhandari1",
+      href: "https://github.com/pravinbanjade",
       label: "GitHub",
     },
     {
       icon: Linkedin,
-      href: "https://www.linkedin.com/in/abhishekbhandari3/",
+      href: "https://www.linkedin.com/in/pravinbanjade/",
       label: "LinkedIn",
     },
     {
       icon: Mail,
-      href: "mailto:workwithabhishek3@gmail.com",
+      href: "mailto:pravinbanjade9@gmail.com",
       label: "Email",
     },
   ];
@@ -58,10 +58,10 @@ const Footer = () => {
           {/* Brand Section */}
           <div className="space-y-4">
             <div className="font-display text-2xl font-bold text-gradient">
-              Abhishek Bhandari
+              Pravin Banjade
             </div>
             <p className="text-muted-foreground leading-relaxed">
-              DevOps Engineer focused on CI/CD, Infrastructure as Code, and reliable deployments.
+              Senior DevOps Engineer with 7+ years of experience in cloud-native infrastructure, CI/CD pipelines, and automation frameworks.
             </p>
 
             <div className="flex space-x-4">
@@ -100,20 +100,20 @@ const Footer = () => {
           <div className="space-y-4">
             <h3 className="text-lg font-semibold">Get in Touch</h3>
             <div className="space-y-2 text-muted-foreground">
-              <p>Bhaktapur, Nepal</p>
+              <p>Katunje, Bhaktapur, Nepal</p>
 
               <a
-                href="mailto:workwithabhishek3@gmail.com"
+                href="mailto:pravinbanjade9@gmail.com"
                 className="block hover:text-primary transition-colors duration-300"
               >
-                workwithabhishek3@gmail.com
+                pravinbanjade9@gmail.com
               </a>
 
               <a
-                href="tel:+9779864022313"
+                href="tel:+9779860298863"
                 className="block hover:text-primary transition-colors duration-300"
               >
-                +977 9864022313
+                +977 9860298863
               </a>
             </div>
           </div>
@@ -125,7 +125,7 @@ const Footer = () => {
         {/* Bottom Section */}
         <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
           <div className="text-muted-foreground text-sm">
-            © {currentYear} Abhishek Bhandari. All rights reserved.
+            © {currentYear} Pravin Banjade. All rights reserved.
           </div>
 
           <div className="text-muted-foreground text-sm">

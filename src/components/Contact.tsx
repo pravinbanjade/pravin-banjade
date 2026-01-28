@@ -39,24 +39,13 @@ const Contact = () => {
       form.append("_captcha", "false");
 
       const res = await fetch(
-        "https://formsubmit.co/ajax/workwithabhishek3@gmail.com",
+        "https://formsubmit.co/ajax/035619f57b73883eac6fb566096439e2",
         {
           method: "POST",
           headers: { Accept: "application/json" },
           body: form,
         }
       );
-
-      // DEBUG (see browser console)
-      console.log("[FormSubmit] status:", res.status, "ok:", res.ok);
-
-      // Optional debug: try to read response body (may fail if not JSON)
-      try {
-        const data = await res.clone().json();
-        console.log("[FormSubmit] json:", data);
-      } catch (err) {
-        console.log("[FormSubmit] response is not JSON (or cannot parse).", err);
-      }
 
       if (!res.ok) {
         throw new Error(`Request failed: ${res.status}`);
@@ -85,19 +74,19 @@ const Contact = () => {
     {
       icon: Mail,
       label: "Email",
-      value: "workwithabhishek3@gmail.com",
-      href: "mailto:workwithabhishek3@gmail.com",
+      value: "pravinbanjade9@gmail.com",
+      href: "mailto:pravinbanjade9@gmail.com",
     },
     {
       icon: Phone,
       label: "Phone",
-      value: "+977 9864022313",
-      href: "tel:+9779864022313",
+      value: "+977 9860298863",
+      href: "tel:+9779860298863",
     },
     {
       icon: MapPin,
       label: "Location",
-      value: "Bhaktapur, Nepal",
+      value: "Katunje, Bhaktapur, Nepal",
       href: "#",
     },
   ];
@@ -106,57 +95,57 @@ const Contact = () => {
     {
       icon: Github,
       label: "GitHub",
-      href: "https://github.com/abhishekbhandari1",
+      href: "https://github.com/pravinbanjade",
     },
     {
       icon: Linkedin,
       label: "LinkedIn",
-      href: "https://www.linkedin.com/in/abhishekbhandari3/",
+      href: "https://www.linkedin.com/in/pravinbanjade/",
     },
   ];
 
   return (
     <section id="contact" className="section-padding bg-secondary/30">
       <div className="container-custom">
-        <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-display font-bold mb-6">
+        <div className="text-center mb-12 md:mb-16 scroll-animate animate-fade-in">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 md:mb-6">
             Get In <span className="text-gradient">Touch</span>
           </h2>
-          <div className="w-24 h-1 bg-gradient-to-r from-primary to-primary-glow mx-auto mb-8"></div>
-          <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
+          <div className="w-24 h-1 bg-gradient-to-r from-primary to-primary-glow mx-auto mb-6 md:mb-8"></div>
+          <p className="text-base md:text-lg text-muted-foreground max-w-3xl mx-auto px-4">
             Open to DevOps opportunities, collaborations, and cloud automation projects. Feel free
             to reach out anytime.
           </p>
         </div>
 
-        <div className="grid lg:grid-cols-2 gap-12">
+        <div className="grid lg:grid-cols-2 gap-8 lg:gap-12">
           {/* Contact Info */}
-          <div className="space-y-8">
+          <div className="space-y-6 md:space-y-8">
             <div>
-              <h3 className="text-2xl font-display font-semibold mb-6">
+              <h3 className="text-xl md:text-2xl font-semibold mb-4 md:mb-6">
                 Let's Start a Conversation
               </h3>
-              <p className="text-muted-foreground leading-relaxed mb-8">
+              <p className="text-sm md:text-base text-muted-foreground leading-relaxed mb-6 md:mb-8">
                 Whether you have a project in mind, need technical consultation, or just want to
                 connect, feel free to reach out through any of the channels below.
               </p>
             </div>
 
-            <div className="space-y-6">
+            <div className="space-y-4 md:space-y-6">
               {contactInfo.map((contact, index) => (
                 <Card
                   key={contact.label}
-                  className="card-glass card-hover animate-fade-in"
-                  style={{ animationDelay: `${index * 0.1}s` }}
+                  className="card-glass card-hover scroll-animate animate-scale-in transition-smooth"
+                  style={{ animationDelay: `${index * 0.15}s` }}
                 >
-                  <CardContent className="p-6">
-                    <a href={contact.href} className="flex items-center space-x-4 group">
-                      <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center group-hover:bg-primary/20 transition-colors duration-300">
-                        <contact.icon className="w-6 h-6 text-primary" />
+                  <CardContent className="p-4 md:p-6">
+                    <a href={contact.href} className="flex items-center gap-3 md:gap-4 group">
+                      <div className="w-10 h-10 md:w-12 md:h-12 rounded-full bg-primary/10 flex items-center justify-center group-hover:bg-primary/20 transition-colors duration-300 flex-shrink-0">
+                        <contact.icon className="w-5 h-5 md:w-6 md:h-6 text-primary" />
                       </div>
-                      <div>
-                        <p className="text-sm text-muted-foreground">{contact.label}</p>
-                        <p className="font-medium group-hover:text-primary transition-colors duration-300">
+                      <div className="min-w-0">
+                        <p className="text-xs md:text-sm text-muted-foreground">{contact.label}</p>
+                        <p className="text-sm md:text-base font-medium group-hover:text-primary transition-colors duration-300 truncate">
                           {contact.value}
                         </p>
                       </div>
@@ -168,18 +157,18 @@ const Contact = () => {
 
             {/* Social */}
             <div>
-              <h4 className="text-lg font-semibold mb-4">Connect</h4>
-              <div className="flex space-x-4">
+              <h4 className="text-base md:text-lg font-semibold mb-3 md:mb-4">Connect</h4>
+              <div className="flex gap-3 md:gap-4">
                 {socialLinks.map((social) => (
                   <a
                     key={social.label}
                     href={social.href}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center hover:bg-primary hover:text-primary-foreground transition-all duration-300 hover:scale-110"
+                    className="w-10 h-10 md:w-12 md:h-12 rounded-full bg-primary/10 flex items-center justify-center hover:bg-primary hover:text-primary-foreground transition-all duration-300 hover:scale-110"
                     aria-label={social.label}
                   >
-                    <social.icon className="w-6 h-6" />
+                    <social.icon className="w-5 h-5 md:w-6 md:h-6" />
                   </a>
                 ))}
               </div>
@@ -188,15 +177,15 @@ const Contact = () => {
 
           {/* Contact Form */}
           <Card className="card-glass">
-            <CardHeader>
-              <CardTitle className="text-2xl font-display">Send Message</CardTitle>
+            <CardHeader className="p-4 md:p-6">
+              <CardTitle className="text-xl md:text-2xl">Send Message</CardTitle>
             </CardHeader>
 
-            <CardContent>
-              <form onSubmit={handleSubmit} className="space-y-6">
-                <div className="grid md:grid-cols-2 gap-6">
+            <CardContent className="p-4 md:p-6 pt-0">
+              <form onSubmit={handleSubmit} className="space-y-4 md:space-y-6">
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 md:gap-6">
                   <div>
-                    <label htmlFor="name" className="block text-sm font-medium mb-2">
+                    <label htmlFor="name" className="block text-xs md:text-sm font-medium mb-2">
                       Name *
                     </label>
                     <Input
@@ -206,11 +195,12 @@ const Contact = () => {
                       onChange={handleInputChange}
                       required
                       placeholder="Your full name"
+                      className="text-sm md:text-base"
                     />
                   </div>
 
                   <div>
-                    <label htmlFor="email" className="block text-sm font-medium mb-2">
+                    <label htmlFor="email" className="block text-xs md:text-sm font-medium mb-2">
                       Email *
                     </label>
                     <Input
@@ -221,12 +211,13 @@ const Contact = () => {
                       onChange={handleInputChange}
                       required
                       placeholder="you@example.com"
+                      className="text-sm md:text-base"
                     />
                   </div>
                 </div>
 
                 <div>
-                  <label htmlFor="subject" className="block text-sm font-medium mb-2">
+                  <label htmlFor="subject" className="block text-xs md:text-sm font-medium mb-2">
                     Subject *
                   </label>
                   <Input
@@ -236,11 +227,12 @@ const Contact = () => {
                     onChange={handleInputChange}
                     required
                     placeholder="What's this about?"
+                    className="text-sm md:text-base"
                   />
                 </div>
 
                 <div>
-                  <label htmlFor="message" className="block text-sm font-medium mb-2">
+                  <label htmlFor="message" className="block text-xs md:text-sm font-medium mb-2">
                     Message *
                   </label>
                   <Textarea
@@ -250,12 +242,12 @@ const Contact = () => {
                     onChange={handleInputChange}
                     required
                     placeholder="Your message..."
-                    rows={6}
-                    className="resize-none"
+                    rows={5}
+                    className="resize-none text-sm md:text-base"
                   />
                 </div>
 
-                <Button type="submit" className="w-full btn-hero" disabled={isLoading}>
+                <Button type="submit" className="w-full btn-hero py-5 md:py-6 text-sm md:text-base transition-spring hover:scale-105" disabled={isLoading}>
                   {isLoading ? (
                     <div className="flex items-center">
                       <div className="w-4 h-4 border-2 border-white/30 border-t-white rounded-full animate-spin mr-2"></div>
