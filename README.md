@@ -2,39 +2,9 @@
 
 Professional portfolio website showcasing 7+ years of DevOps engineering experience, technical skills, projects, and professional achievements in cloud-native infrastructure, CI/CD pipelines, and automation frameworks.
 
-🌐 **Live Site**: [pravinbanjade.com.np](http://pravinbanjade.com.np)  
-💼 **LinkedIn**: [linkedin.com/in/pravinbanjade](https://www.linkedin.com/in/pravinbanjade/)  
-🐙 **GitHub**: [github.com/pravinbanjade](https://github.com/pravinbanjade)
-
----
-
-## 🚀 Features
-
-### Core Sections
-- **Hero Section** - Professional introduction with animated profile photo
-- **About** - Senior DevOps Engineer summary with key strengths
-- **Technical Skills** - Comprehensive skill categories with proficiency levels
-- **Professional Experience** - Detailed work history from 2017-Present
-- **Selected Projects** - 8 major client projects with achievements
-- **Education** - Academic background and certifications
-- **Contact** - Secure contact form with social links
-
-### Design & UX
-- 🎨 **Material Design Blue** color palette (#1E88E5, #42A5F5)
-- ✨ **Scroll-triggered animations** - Smooth entrance animations on scroll
-- 📱 **Fully responsive** - Optimized for mobile, tablet, and desktop
-- 🌗 **Dark/Light mode** - Theme toggle with system preference detection
-- 🎯 **Professional typography** - Inter font family throughout
-- ⚡ **Performance optimized** - Fast load times and smooth interactions
-
-### Technical Highlights
-- **Modern React** with TypeScript for type safety
-- **Vite** for lightning-fast development and builds
-- **Tailwind CSS** for utility-first styling
-- **shadcn/ui** component library for consistent UI
-- **Intersection Observer API** for scroll animations
-- **FormSubmit** for secure contact form handling
-- **Lucide React** for professional icons
+**Live Site**: [pravinbanjade.com.np](http://pravinbanjade.com.np)  
+**LinkedIn**: [linkedin.com/in/pravinbanjade](https://www.linkedin.com/in/pravinbanjade/)  
+**GitHub**: [github.com/pravinbanjade](https://github.com/pravinbanjade)
 
 ---
 
@@ -103,7 +73,7 @@ pravin-banjade/
 │   └── robots.txt             # SEO configuration
 ├── src/
 │   ├── assets/
-│   │   └── photo.JPG          # Profile photo
+│   │   └── photo.jpg          # Profile photo
 │   ├── components/
 │   │   ├── ui/                # shadcn/ui components
 │   │   ├── About.tsx          # About section
@@ -131,109 +101,6 @@ pravin-banjade/
 ├── tsconfig.json              # TypeScript configuration
 └── vite.config.ts             # Vite configuration
 ```
-
----
-
-## 🎨 Color Palette
-
-### Material Design Blue
-- **Primary**: `#1E88E5` (Blue 600)
-- **Primary Glow**: `#42A5F5` (Blue 400)
-- **Accent**: `#2196F3` (Blue 500)
-
-### Theme Colors
-```css
-Light Mode:
-- Background: #FFFFFF
-- Text: #0F172A
-- Border: #E2E8F0
-
-Dark Mode:
-- Background: #0F172A
-- Text: #F8FAFC
-- Border: #1E293B
-```
-
----
-
-## ✨ Animation System
-
-### Scroll-Triggered Animations
-- **Fade In** - Elements fade in with upward motion
-- **Slide Up** - Cards slide up from below
-- **Slide In Left/Right** - Directional entrance animations
-- **Scale In** - Subtle zoom-in effect
-
-### Interaction Animations
-- **Hover Effects** - Cards lift on hover
-- **Button Animations** - Spring-bounce effect on buttons
-- **Social Icons** - Scale and lift on hover
-- **Smooth Transitions** - Professional easing curves
-
----
-
-## 📧 Contact Form
-
-The contact form uses [FormSubmit](https://formsubmit.co/) for secure email handling:
-- ✅ No backend required
-- ✅ Spam protection
-- ✅ Email validation
-- ✅ Success/error notifications
-- 🔒 Email address hidden with hash: `035619f57b73883eac6fb566096439e2`
-
----
-
-## 🚀 Deployment
-
-### Build Command
-```bash
-npm run build
-```
-
-### Deploy to Netlify, Vercel, or GitHub Pages
-The `dist` folder contains the production-ready static files.
-
-#### Netlify
-```bash
-# Install Netlify CLI
-npm install -g netlify-cli
-
-# Deploy
-netlify deploy --prod --dir=dist
-```
-
-#### Vercel
-```bash
-# Install Vercel CLI
-npm install -g vercel
-
-# Deploy
-vercel --prod
-```
-
----
-
-## 📄 License
-
-This project is open source and available under the MIT License.
-
----
-
-## 👤 About Pravin Banjade
-
-**Senior DevOps Engineer** with 7+ years of experience in:
-- ☁️ Cloud Infrastructure (AWS, Azure, GCP)
-- 🔄 CI/CD Pipelines (Jenkins, GitLab CI/CD, GitHub Actions)
-- 🏗️ Infrastructure as Code (Terraform, CloudFormation)
-- 🐳 Containerization (Docker, Kubernetes, Helm)
-- 📊 Monitoring & Observability (Prometheus, Grafana)
-- 🔒 Security & Compliance (DevSecOps practices)
-
-### Key Achievements
-- 99%+ uptime for production systems
-- 40% improvement in deployment frequency
-- $5,000+/month in cloud cost savings
-- 25-35% reduction in MTTD and MTTR
 
 ---
 
