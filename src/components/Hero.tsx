@@ -1,6 +1,6 @@
 import { Download, Github, Linkedin, Mail } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-import profilePhoto from '@/assets/photo.JPG';
+import profilePhoto from '@/assets/photo.jpg';
 import ParticleBackground from './ParticleBackground';
 
 const Hero = () => {
