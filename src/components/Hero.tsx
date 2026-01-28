@@ -1,6 +1,7 @@
 import { Download, Github, Linkedin, Mail } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import profilePhoto from '@/assets/photo.JPG';
+import ParticleBackground from './ParticleBackground';
 
 const Hero = () => {
   const downloadCV = () => {
@@ -11,12 +12,13 @@ const Hero = () => {
   };
 
   return (
-    <section id="home" className="section-padding min-h-screen flex items-center bg-gradient-to-br from-background to-secondary/20">
-      <div className="container-custom">
-        <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
+    <section id="home" className="section-padding min-h-screen flex items-center bg-gradient-to-br from-background to-secondary/20 relative overflow-hidden">
+      <ParticleBackground />
+      <div className="container-custom relative z-10">
+        <div className="grid lg:grid-cols-2 gap-6 md:gap-8 items-center">
           {/* Content */}
-          <div className="space-y-6 md:space-y-8 scroll-animate animate-slide-in-left is-visible order-2 lg:order-1">
-            <div className="space-y-3 md:space-y-4">
+          <div className="space-y-6 scroll-animate animate-slide-in-left is-visible order-2 lg:order-1">
+            <div className="space-y-4">
               <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold leading-tight">
                 Hi, I'm{' '}
                 <span className="text-gradient">Pravin Banjade</span>

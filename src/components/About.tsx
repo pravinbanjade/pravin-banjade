@@ -36,10 +36,10 @@ const About = () => {
           <div className="w-24 h-1 bg-gradient-to-r from-primary to-primary-glow mx-auto mb-6 md:mb-8"></div>
         </div>
 
-        <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-start">
+        <div className="grid lg:grid-cols-2 gap-6 md:gap-8 items-start">
           {/* Text Content */}
-          <div className="space-y-4 md:space-y-6 scroll-animate animate-slide-in-left">
-            <div className="space-y-3 md:space-y-4">
+          <div className="space-y-6 scroll-animate animate-slide-in-left">
+            <div className="space-y-4">
               <h3 className="text-xl md:text-2xl lg:text-3xl font-semibold">
                 Senior DevOps Engineer
               </h3>
@@ -61,15 +61,15 @@ const About = () => {
               <Card
                 key={strength.title}
                 className="card-glass card-hover scroll-animate animate-scale-in transition-smooth"
-                style={{ animationDelay: `${index * 0.15}s` }}
+                style={{ animationDelay: `${index * 0.1}s` }}
               >
-                <CardContent className="p-4 md:p-6 text-center">
+                <CardContent className="p-5 md:p-6 text-center">
                   <div className="mb-3 md:mb-4">
                     <div className="w-12 h-12 md:w-16 md:h-16 mx-auto rounded-full bg-primary/10 flex items-center justify-center">
                       <strength.icon className="h-6 w-6 md:h-8 md:w-8 text-primary" />
                     </div>
                   </div>
-                  <h4 className="text-lg md:text-xl font-semibold mb-2 md:mb-3">{strength.title}</h4>
+                  <h4 className="text-lg md:text-xl font-bold mb-2 md:mb-3">{strength.title}</h4>
                   <p className="text-sm md:text-base text-muted-foreground leading-relaxed">
                     {strength.description}
                   </p>

@@ -1,12 +1,16 @@
 import { useEffect } from 'react';
 import Header from '@/components/Header';
 import Hero from '@/components/Hero';
+import StatsCounter from '@/components/StatsCounter';
 import About from '@/components/About';
-import Skills from '@/components/Skills';
+import BentoGrid from '@/components/BentoGrid';
+import Timeline from '@/components/Timeline';
+import SkillsEnhanced from '@/components/SkillsEnhanced';
 import Projects from '@/components/Projects';
 import Education from '@/components/Education';
 import Contact from '@/components/Contact';
 import Footer from '@/components/Footer';
+import FloatingActionButton from '@/components/FloatingActionButton';
 
 const Index = () => {
   useEffect(() => {
@@ -52,13 +56,17 @@ const Index = () => {
       <Header />
       <main>
         <Hero />
+        <StatsCounter />
         <About />
-        <Skills />
+        <BentoGrid />
+        <SkillsEnhanced />
+        <Timeline />
         <Projects />
         <Education />
         <Contact />
       </main>
       <Footer />
+      <FloatingActionButton />
     </div>
   );
 };

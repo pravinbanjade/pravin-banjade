@@ -20,21 +20,21 @@
     --popover: 0 0% 100%;
     --popover-foreground: 240 10% 3.9%;
     
-    /* Brand Colors - Material Blue (#1E88E5 / #42A5F5) */
-    --primary: 207 90% 50%;
+    /* Brand Colors - Material Teal (#009688 / #26A69A) */
+    --primary: 174 100% 29%;
     --primary-foreground: 0 0% 100%;
-    --primary-glow: 207 90% 61%;
+    --primary-glow: 174 63% 40%;
     
     /* Secondary Palette */
-    --secondary: 207 20% 96%;
-    --secondary-foreground: 207 25% 10%;
+    --secondary: 174 20% 96%;
+    --secondary-foreground: 174 25% 10%;
     
     /* Neutral System */
-    --muted: 207 20% 96%;
-    --muted-foreground: 207 10% 46%;
+    --muted: 174 20% 96%;
+    --muted-foreground: 174 10% 46%;
     
     /* Accent Colors */
-    --accent: 207 90% 50%;
+    --accent: 174 100% 29%;
     --accent-foreground: 0 0% 100%;
     
     /* Status Colors */
@@ -44,20 +44,20 @@
     --success-foreground: 0 0% 98%;
     
     /* Border System */
-    --border: 207 15% 88%;
-    --input: 207 15% 88%;
-    --ring: 207 90% 50%;
+    --border: 174 15% 88%;
+    --input: 174 15% 88%;
+    --ring: 174 100% 29%;
     
     /* Gradients */
-    --gradient-primary: linear-gradient(135deg, hsl(207 90% 50%), hsl(207 90% 61%));
-    --gradient-secondary: linear-gradient(135deg, hsl(207 20% 96%), hsl(207 22% 98%));
-    --gradient-hero: linear-gradient(135deg, hsl(207 90% 50% / 0.1), hsl(207 90% 61% / 0.05));
+    --gradient-primary: linear-gradient(135deg, hsl(174 100% 29%), hsl(174 63% 40%));
+    --gradient-secondary: linear-gradient(135deg, hsl(174 20% 96%), hsl(174 22% 98%));
+    --gradient-hero: linear-gradient(135deg, hsl(174 100% 29% / 0.1), hsl(174 63% 40% / 0.05));
     
     /* Shadows */
-    --shadow-sm: 0 1px 2px 0 hsl(207 15% 10% / 0.05);
-    --shadow-md: 0 4px 6px -1px hsl(207 15% 10% / 0.1), 0 2px 4px -2px hsl(207 15% 10% / 0.1);
-    --shadow-lg: 0 10px 15px -3px hsl(207 15% 10% / 0.1), 0 4px 6px -4px hsl(207 15% 10% / 0.1);
-    --shadow-glow: 0 0 40px hsl(207 90% 50% / 0.35);
+    --shadow-sm: 0 1px 2px 0 hsl(174 15% 10% / 0.05);
+    --shadow-md: 0 4px 6px -1px hsl(174 15% 10% / 0.1), 0 2px 4px -2px hsl(174 15% 10% / 0.1);
+    --shadow-lg: 0 10px 15px -3px hsl(174 15% 10% / 0.1), 0 4px 6px -4px hsl(174 15% 10% / 0.1);
+    --shadow-glow: 0 0 40px hsl(174 100% 29% / 0.35);
     
     /* Animations */
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
@@ -95,21 +95,21 @@
     --popover: 240 10% 6%;
     --popover-foreground: 0 0% 98%;
     
-    /* Brand Colors - Material Blue (Dark Mode) */
-    --primary: 207 90% 61%;
+    /* Brand Colors - Material Teal (Dark Mode) */
+    --primary: 174 63% 40%;
     --primary-foreground: 0 0% 98%;
-    --primary-glow: 207 90% 70%;
+    --primary-glow: 174 100% 70%;
     
     /* Secondary Palette */
-    --secondary: 207 12% 14%;
+    --secondary: 174 12% 14%;
     --secondary-foreground: 0 0% 98%;
     
     /* Neutral System */
-    --muted: 207 12% 14%;
-    --muted-foreground: 207 8% 65%;
+    --muted: 174 12% 14%;
+    --muted-foreground: 174 8% 65%;
     
     /* Accent Colors */
-    --accent: 207 90% 61%;
+    --accent: 174 63% 40%;
     --accent-foreground: 0 0% 98%;
     
     /* Status Colors */
@@ -119,20 +119,20 @@
     --success-foreground: 0 0% 98%;
     
     /* Border System */
-    --border: 207 12% 18%;
-    --input: 207 12% 18%;
-    --ring: 207 90% 61%;
+    --border: 174 12% 18%;
+    --input: 174 12% 18%;
+    --ring: 174 63% 40%;
     
     /* Dark Mode Gradients */
-    --gradient-primary: linear-gradient(135deg, hsl(207 90% 61%), hsl(207 90% 70%));
-    --gradient-secondary: linear-gradient(135deg, hsl(207 12% 14%), hsl(207 14% 16%));
-    --gradient-hero: linear-gradient(135deg, hsl(207 90% 61% / 0.15), hsl(207 90% 70% / 0.08));
+    --gradient-primary: linear-gradient(135deg, hsl(174 63% 40%), hsl(174 100% 70%));
+    --gradient-secondary: linear-gradient(135deg, hsl(174 12% 14%), hsl(174 14% 16%));
+    --gradient-hero: linear-gradient(135deg, hsl(174 63% 40% / 0.15), hsl(174 100% 70% / 0.08));
     
     /* Dark Shadows */
     --shadow-sm: 0 1px 2px 0 hsl(0 0% 0% / 0.1);
     --shadow-md: 0 4px 6px -1px hsl(0 0% 0% / 0.2), 0 2px 4px -2px hsl(0 0% 0% / 0.2);
     --shadow-lg: 0 10px 15px -3px hsl(0 0% 0% / 0.3), 0 4px 6px -4px hsl(0 0% 0% / 0.3);
-    --shadow-glow: 0 0 40px hsl(207 90% 61% / 0.4);
+    --shadow-glow: 0 0 40px hsl(174 63% 40% / 0.4);
     --sidebar-background: 240 5.9% 10%;
     --sidebar-foreground: 240 4.8% 95.9%;
     --sidebar-primary: 224.3 76.3% 48%;
@@ -163,14 +163,58 @@
   /* Button Variants */
   .btn-hero {
     @apply bg-gradient-to-r from-primary to-primary-glow text-primary-foreground;
-    @apply hover:shadow-[var(--shadow-glow)] transition-all duration-300;
-    @apply hover:scale-105 active:scale-95;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.35s cubic-bezier(0.25, 0.46, 0.45, 0.94),
+                box-shadow 0.35s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  }
+  
+  .btn-hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+    transition: left 0.5s ease;
+  }
+  
+  .btn-hero:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px -5px hsl(var(--primary) / 0.4);
+  }
+  
+  .btn-hero:hover::before {
+    left: 100%;
+  }
+  
+  .btn-hero:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 8px -2px hsl(var(--primary) / 0.3);
+    transition-duration: 0.1s;
   }
   
   .btn-outline {
     @apply border-2 border-primary text-primary bg-transparent;
-    @apply hover:bg-primary hover:text-primary-foreground;
-    @apply transition-all duration-300;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.35s cubic-bezier(0.25, 0.46, 0.45, 0.94),
+                background-color 0.35s cubic-bezier(0.25, 0.46, 0.45, 0.94),
+                color 0.35s cubic-bezier(0.25, 0.46, 0.45, 0.94),
+                box-shadow 0.35s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  }
+  
+  .btn-outline:hover {
+    @apply bg-primary text-primary-foreground;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px -5px hsl(var(--primary) / 0.3);
+  }
+  
+  .btn-outline:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 8px -2px hsl(var(--primary) / 0.2);
+    transition-duration: 0.1s;
   }
   
   /* Card Variants */
@@ -186,11 +230,41 @@
   
   /* Section Styling */
   .section-padding {
-    @apply py-16 md:py-24 lg:py-32;
+    @apply py-16 md:py-20 lg:py-24;
   }
   
   .container-custom {
     @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+  
+  /* Section Header */
+  .section-header {
+    @apply text-center mb-12 md:mb-16;
+  }
+  
+  .section-title {
+    @apply text-3xl md:text-4xl lg:text-5xl font-bold mb-4 md:mb-6;
+  }
+  
+  .section-subtitle {
+    @apply text-base md:text-lg text-muted-foreground max-w-3xl mx-auto;
+  }
+  
+  .subsection-title {
+    @apply text-xl md:text-2xl lg:text-3xl font-semibold mb-6 md:mb-8;
+  }
+  
+  /* Card Styles */
+  .card-padding-sm {
+    @apply p-4 md:p-5;
+  }
+  
+  .card-padding {
+    @apply p-5 md:p-6;
+  }
+  
+  .card-padding-lg {
+    @apply p-6 md:p-8;
   }
   
   /* Text Gradients */
@@ -310,26 +384,33 @@ html {
 
 /* Enhanced hover effects */
 .card-hover {
-  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), 
-              box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 0.35s cubic-bezier(0.25, 0.46, 0.45, 0.94),
+              box-shadow 0.35s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 
 .card-hover:hover {
-  transform: translateY(-4px);
+  transform: translateY(-5px);
+  box-shadow: 0 12px 28px -8px hsl(var(--primary) / 0.2);
 }
 
 /* Link hover animation */
 a {
-  transition: color 0.3s ease, transform 0.2s ease;
+  transition: color 0.3s ease, transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* Button hover animations */
 button {
-  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94),
+              background-color 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+button:hover {
+  transform: translateY(-1px);
 }
 
 button:active {
-  transform: scale(0.98);
+  transform: translateY(0);
+  transition-duration: 0.1s;
 }
 
 /* Smooth image transitions */
@@ -381,4 +462,18 @@ img {
   outline: 2px solid hsl(var(--primary));
   outline-offset: 2px;
   transition: outline 0.2s ease;
+}
+
+/* Shimmer effect for progress bars */
+@keyframes shimmer {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+.animate-shimmer {
+  animation: shimmer 2s infinite;
 }

@@ -112,22 +112,20 @@ const Contact = () => {
             Get In <span className="text-gradient">Touch</span>
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-primary to-primary-glow mx-auto mb-6 md:mb-8"></div>
-          <p className="text-base md:text-lg text-muted-foreground max-w-3xl mx-auto px-4">
-            Open to DevOps opportunities, collaborations, and cloud automation projects. Feel free
-            to reach out anytime.
+          <p className="text-base md:text-lg text-muted-foreground max-w-3xl mx-auto">
+            Open to DevOps opportunities, collaborations, and cloud automation projects. Feel free to reach out anytime
           </p>
         </div>
 
-        <div className="grid lg:grid-cols-2 gap-8 lg:gap-12">
+        <div className="grid lg:grid-cols-2 gap-6 md:gap-8">
           {/* Contact Info */}
-          <div className="space-y-6 md:space-y-8">
+          <div className="space-y-6">
             <div>
-              <h3 className="text-xl md:text-2xl font-semibold mb-4 md:mb-6">
+              <h3 className="text-xl md:text-2xl lg:text-3xl font-semibold mb-4">
                 Let's Start a Conversation
               </h3>
-              <p className="text-sm md:text-base text-muted-foreground leading-relaxed mb-6 md:mb-8">
-                Whether you have a project in mind, need technical consultation, or just want to
-                connect, feel free to reach out through any of the channels below.
+              <p className="text-sm md:text-base text-muted-foreground leading-relaxed mb-6">
+                Whether you have a project in mind, need technical consultation, or just want to connect, feel free to reach out through any of the channels below
               </p>
             </div>
 
@@ -157,7 +155,7 @@ const Contact = () => {
 
             {/* Social */}
             <div>
-              <h4 className="text-base md:text-lg font-semibold mb-3 md:mb-4">Connect</h4>
+              <h4 className="text-base md:text-lg font-bold mb-3 md:mb-4">Connect</h4>
               <div className="flex gap-3 md:gap-4">
                 {socialLinks.map((social) => (
                   <a
