@@ -159,10 +159,10 @@ const Timeline = () => {
                           <div className="flex items-start justify-between gap-3 mb-2">
                             <div className="flex items-center gap-2">
                               <div 
-                                className="w-10 h-10 rounded-lg flex items-center justify-center flex-shrink-0"
+                                className="w-12 h-12 md:w-10 md:h-10 rounded-lg flex items-center justify-center flex-shrink-0"
                                 style={{ backgroundColor: `${item.color}20` }}
                               >
-                                <Briefcase className="w-5 h-5" style={{ color: item.color }} />
+                                <Briefcase className="w-6 h-6 md:w-5 md:h-5" style={{ color: item.color }} />
                               </div>
                               <div>
                                 <h3 className="text-lg md:text-xl font-bold" style={{ color: item.color }}>

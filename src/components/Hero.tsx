@@ -12,7 +12,7 @@ const Hero = () => {
   };
 
   return (
-    <section id="home" className="section-padding min-h-screen flex items-center bg-gradient-to-br from-background to-secondary/20 relative overflow-hidden">
+    <section id="home" className="pt-24 pb-16 md:py-20 lg:py-24 min-h-screen flex items-center bg-gradient-to-br from-background to-secondary/20 relative overflow-hidden">
       <ParticleBackground />
       <div className="container-custom relative z-10">
         <div className="grid lg:grid-cols-2 gap-6 md:gap-8 items-center">
@@ -81,8 +81,8 @@ const Hero = () => {
           </div>
 
           {/* Profile Photo */}
-          <div className="relative scroll-animate animate-slide-in-right is-visible order-1 lg:order-2">
-            <div className="relative mx-auto w-64 h-64 sm:w-72 sm:h-72 md:w-80 md:h-80 lg:w-96 lg:h-96">
+          <div className="relative scroll-animate animate-slide-in-right is-visible order-1 lg:order-2 mt-4 md:mt-0">
+            <div className="relative mx-auto w-56 h-56 sm:w-64 sm:h-64 md:w-80 md:h-80 lg:w-96 lg:h-96">
               {/* Gradient Background */}
               <div className="absolute inset-0 bg-gradient-to-r from-primary/20 to-primary-glow/20 rounded-full blur-3xl animate-float"></div>
 
