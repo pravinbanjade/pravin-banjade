@@ -157,12 +157,12 @@ const Timeline = () => {
                         {/* Header */}
                         <div className="mb-4">
                           <div className="flex items-start justify-between gap-3 mb-2">
-                            <div className="flex items-center gap-2">
+                            <div className="flex items-center gap-3">
                               <div 
-                                className="w-12 h-12 md:w-10 md:h-10 rounded-lg flex items-center justify-center flex-shrink-0"
-                                style={{ backgroundColor: `${item.color}20` }}
+                                className="w-14 h-14 md:w-10 md:h-10 rounded-lg flex items-center justify-center flex-shrink-0 bg-background border-2"
+                                style={{ borderColor: item.color }}
                               >
-                                <Briefcase className="w-6 h-6 md:w-5 md:h-5" style={{ color: item.color }} />
+                                <Briefcase className="w-7 h-7 md:w-5 md:h-5" style={{ color: item.color, strokeWidth: 2.5 }} />
                               </div>
                               <div>
                                 <h3 className="text-lg md:text-xl font-bold" style={{ color: item.color }}>
