@@ -6,7 +6,7 @@ const FloatingActionButton = () => {
   const [showTooltip, setShowTooltip] = useState(false);
 
   const redirectToTechyWebsite = () => {
-    window.open('https://pravinb.com.np', '_blank');
+    window.open('https://pravinb.com.np');
   };
 
   return (
